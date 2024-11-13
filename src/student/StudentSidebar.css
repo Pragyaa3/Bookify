@@ -1,0 +1,35 @@
+/* Make sure the parent container uses Flexbox */
+.dashboard-container {
+    display: flex; /* Flex layout to place the sidebar and main content side by side */
+    height: 100vh; /* Ensure it takes up the full height of the screen */
+  }
+  
+  .sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: #f4f4f4; 
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Make sure the sidebar stays in place while scrolling */
+    top: 0; /* Pin it to the top */
+  }
+  
+  .main-content {
+    flex-grow: 1; /* Take up the remaining space */
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling in the main content */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  

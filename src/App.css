@@ -1,0 +1,115 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/*new css*/
+/* Custom styles for the navbar */
+.navbar {
+  background-color: #333; /* Dark background color */
+}
+
+.navbar-brand {
+  color: #fff; /* White color for the brand text */
+  font-weight: bold; /* Bold brand text */
+}
+
+.nav-link {
+  color: #bbb; /* Lighter color for the nav links */
+}
+
+.nav-link:hover {
+  color: #fff; /* Change color on hover */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White icon for the toggle button */
+}
+
+button {
+  margin-left: 10px; /* Add some space between the Login and Signup buttons */
+}
+
+button:hover {
+  background-color: #0056b3; /* Change button color on hover */
+}
+
+/* BasicExample.css */
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #bbb;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+button {
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* In your App.css or a separate CSS file */
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+.page-exit {
+  opacity: 1;
+}
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}

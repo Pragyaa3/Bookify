@@ -1,0 +1,53 @@
+.instructor-list {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .instructor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .instructor-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructor-profile-pic {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .instructor-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .instructor-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .instructor-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .instructor-card button:hover {
+    background-color: #45a049;
+  }
+  
