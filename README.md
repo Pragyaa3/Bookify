@@ -47,7 +47,7 @@ With a focus on usability, reliability, and scalability, Bookify aims to revolut
 
 ## Tech Stack
 
-- **Frontend**: React (JSX), Vite (for build and development)
+- **Frontend**: Vite (for build and development)
 - **Backend**: Node.js (for booking logic and custom APIs)
 - **Authentication**: Firebase (for user authentication and real-time database)
 - **Database**: Firebase Firestore (for storing user and booking data)
